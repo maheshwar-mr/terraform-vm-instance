@@ -1,4 +1,4 @@
-# Provisioning a Google Compute VM Instance using Terraform
+# Provision a GCP VM Instance using Terraform
 
 This repo contains terraform configuration in HCL to launch a preemptible Ubuntu instance
 
@@ -6,7 +6,7 @@ This repo contains terraform configuration in HCL to launch a preemptible Ubuntu
 
 Add your own service account JSON key to the project directory and add the file name to **terraform.tfvars** file under the credentials_file key
 
-## VM Instance Configuration
+## Compute VM Instance Configuration
 
 Replace all other VM instance configuration values with your own in the **terraform.tfvars** file or leave them as is
 
