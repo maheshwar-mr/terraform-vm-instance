@@ -6,17 +6,17 @@ This repo contains terraform configuration in HCL to launch a preemptible Ubuntu
 
 Add your own service account JSON key to the project directory and add the file name to **terraform.tfvars** file under the credentials_file key
 
-## VM Instance Details
+## VM Instance Configuration
 
 Replace all other VM instance configuration values with your own in the **terraform.tfvars** file or leave them as is
 
 ## Preemptibility
 
-If you want your instance to be preemptible, leave the main.tf file as it is.
+If you want your instance to be preemptible, leave the **main.tf** file as it is
 
 If not, remove the **scheduling** section under vm_instance resource
 
-## Commands
+## Provision
 
 Load all the necessary modules
 
@@ -37,3 +37,13 @@ terraform apply
 ```
 
 After the **apply** command, type **yes** when prompted for input to apply the configuration
+
+## Teardown
+
+Teardown everything that you created
+
+```bash
+terraform destroy
+```
+
+After the **destroy** command, type **yes** when prompted for input to destroy the resources
