@@ -1,4 +1,5 @@
 project           = "learning-283508"
+instance_name     = "ubuntu-1804"
 credentials_file  = "learning-d310003491ab.json"
 region            = "us-central1"
 zone              = "us-central1-c"

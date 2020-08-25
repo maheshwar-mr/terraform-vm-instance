@@ -2,6 +2,10 @@ variable "project" {
   type = string
 }
 
+variable "instance_name" {
+  type = string
+}
+
 variable "credentials_file" {
   type = string
 }

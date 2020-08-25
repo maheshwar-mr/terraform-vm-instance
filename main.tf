@@ -9,7 +9,7 @@ terraform {
 provider "google" {
   version = "3.5.0"
 
-  credentials = file("learning-d310003491ab.json")
+  credentials = file(var.credentials_file)
 
   project = var.project
   region  = var.region
@@ -17,7 +17,7 @@ provider "google" {
 }
 
 resource "google_compute_instance" "vm_instance" {
-  name         = "terraform-instance"
+  name         = var.instance_name
   machine_type = var.machine_type
   tags         = var.network_tags
 
