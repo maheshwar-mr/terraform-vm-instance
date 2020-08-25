@@ -18,7 +18,7 @@ If not, remove the **scheduling** section under vm_instance resource
 
 ## Provision
 
-Load all the necessary modules
+Initialize the workspace and load all the necessary modules
 
 ```bash
 terraform init
@@ -36,7 +36,7 @@ Provision the resources
 terraform apply
 ```
 
-After the **apply** command, type **yes** when prompted for input to apply the configuration
+After the `terraform apply` command, type `yes` when prompted for input to apply the configuration
 
 ## Teardown
 
@@ -46,4 +46,8 @@ Teardown everything that you created
 terraform destroy
 ```
 
-After the **destroy** command, type **yes** when prompted for input to destroy the resources
+After the `terraform destroy` command, type `yes` when prompted for input to destroy the resources
+
+## Other Commands
+
+You can refer to [Terraform CLI Documentation](https://www.terraform.io/docs/commands/index.html) for all other commands and usage
