@@ -14,7 +14,7 @@ Replace all other VM instance configuration values with your own in the **terraf
 
 If you want your instance to be preemptible, leave the **main.tf** file as it is
 
-If not, remove the **scheduling** section under vm_instance resource
+If not, remove the `scheduling{}` section under vm_instance resource
 
 ## Provision
 
