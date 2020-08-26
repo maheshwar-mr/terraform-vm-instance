@@ -34,6 +34,9 @@ resource "google_compute_instance" "vm_instance" {
     automatic_restart = false
   }
 
+  metadata_startup_script = file(var.startup_script)
+
+
   network_interface {
     network = "default"
     access_config {

@@ -8,3 +8,4 @@ network_tags      = ["worker-in", "worker-out", "controlplane-in", "controlplane
 disk_type         = "pd-standard"
 machine_image     = "ubuntu-os-cloud/ubuntu-1804-lts"
 disk_size         = 20
+startup_script    = "startupscript.sh"

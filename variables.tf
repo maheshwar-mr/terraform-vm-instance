@@ -37,3 +37,7 @@ variable "disk_size" {
 variable "disk_type" {
   type = string
 }
+
+variable "startup_script" {
+  type = string
+}
