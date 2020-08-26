@@ -22,19 +22,19 @@ If not, remove the `scheduling{}` section under vm_instance resource
 
 Initialize the workspace and load all the necessary modules
 
-```bash
+```
 terraform init
 ```
 
 See the resources to be added, changed or deleted
 
-```bash
+```
 terraform plan
 ```
 
 Provision the resources
 
-```bash
+```
 terraform apply
 ```
 
@@ -44,7 +44,7 @@ After the `terraform apply` command, type `yes` when prompted for input to apply
 
 Teardown everything that you created
 
-```bash
+```
 terraform destroy
 ```
 
