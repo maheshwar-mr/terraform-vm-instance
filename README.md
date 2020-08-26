@@ -1,6 +1,8 @@
 # Provision a GCP VM Instance using Terraform
 
-This repo contains terraform configuration written in HCL to launch a preemptible Ubuntu instance
+This repo contains terraform configuration written in HCL to provision a preemptible Ubuntu instance
+
+A startup script is included which installs docker in the VM instance
 
 ## GCP Service Account
 
