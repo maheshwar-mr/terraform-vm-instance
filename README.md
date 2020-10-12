@@ -50,6 +50,8 @@ terraform destroy
 
 After the `terraform destroy` command, type `yes` when prompted for input to destroy the resources
 
-## Other Commands
+## References
 
-You can refer to [Terraform CLI Documentation](https://www.terraform.io/docs/commands/index.html) for all other commands and usage
+Refer to [Terraform CLI Documentation](https://www.terraform.io/docs/commands/index.html) for all other Terraform commands and usage
+
+Refer to [Terraform GCP Documentation](https://www.terraform.io/docs/providers/google/index.html) for provisioning GCP resources using Terraform
